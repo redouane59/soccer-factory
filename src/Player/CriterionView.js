@@ -37,9 +37,9 @@ export class CriterionView extends Component {
           />
         </td>
         <td>
-        <RatingValueView
-          value = {this.props.model.value}
-        />
+          <RatingValueView
+            value = {this.props.model.value}
+          />
         </td>
       </tr>
     );

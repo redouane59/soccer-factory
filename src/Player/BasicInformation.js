@@ -43,14 +43,16 @@ export class BasicInformation extends Component {
         let mailField =  <input className = "basicInformationInput" placeholder="c.ronaldo@rmfc.com" type="email" name="email" onChange={this.mailChange} value={this.props.mail}   />
         let birthdateField =  <input className = "basicInformationInput" type="date" name="Date de naissance" onChange={this.dateChange} value={this.props.birthdate} />
 
-        return (
-            <form className="basicInformation">
 
-            <label>
+        /*  <label>
             Search a player
             <PlayerSearchBar/>
             </label>
-            <br/>
+            <br/>  */
+            
+        return (
+            <form className="basicInformation">
+
             <label>
             Name <br/>
                 {nameField}
