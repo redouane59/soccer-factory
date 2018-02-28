@@ -1,0 +1,45 @@
+.FullPlayersViewDiv{
+  margin: auto;
+  width:80%;
+  height:100%;
+  overflow: hidden;
+}
+
+.newButton{
+    margin-top : 25px;
+    float:left;
+    background: url(/img/new.png) no-repeat;
+    width:50px;
+    height:50px;
+    padding: 0;
+    border: none;
+}
+
+.radarChart{
+  float:left;
+  margin-top : 25px;
+  height: 100%;
+  width: 35%;
+  margin-right: 5%;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width:1024px) {
+  /* For mobile phones: */
+  .FullPlayersViewDiv {
+    width:95%;
+    margin: 2%;
+  }
+
+  .radarChart {
+    margin-top : 25px;
+    width: 95%;
+    margin-left : 2.5%;
+    margin-right : 2.5%;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+  }
+}

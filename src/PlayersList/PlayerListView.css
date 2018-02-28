@@ -1,0 +1,85 @@
+.playerListDiv{
+  float: left;
+  margin-top : 25px;
+  width: 40%;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.selectedLineBlue{
+  background-color: rgba(31, 119, 180, 0.1);
+}
+.selectedLineRed{
+  background-color: rgba(255, 127, 14, 0.1);
+}
+
+.onHoverBlue:hover{
+  background-color: rgba(31, 119, 180, 0.1);
+  cursor: pointer;
+}
+.onHoverRed:hover{
+  background-color: rgba(255, 127, 14, 0.1);
+  cursor: pointer;
+}
+
+ .onHoverGray:hover{
+  background-color:#eeebeb;
+  cursor: pointer;
+}
+
+.selectedLineGray{
+    background-color:#eeebeb;
+}
+
+.unselectedLine{
+  background-color: #ffffff;
+}
+
+.playerTable {
+  float: right;
+  border-style: solid;
+  border-radius: 10px;
+  border-spacing:0;
+  width: 100%;
+  height:100%;
+}
+
+
+.playerTable th{
+  border-bottom: 2px solid black;
+  background-color: #eeeeeb;
+  padding: 10px;
+      cursor: pointer;
+
+}
+
+.playerTable td {
+  border-top: 1px solid black;
+  padding:5px;
+}
+
+.playerTable .td0 {
+  border-top: none;
+}
+
+
+.editButton {
+  background: url(/img/edit.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:contain;
+  display:inline-block;
+  width:100%;
+  height:20px;
+}
+
+
+
+@media only screen and (max-width:1024px) {
+  /* For mobile phones: */
+  .playerListDiv {
+    width:95%;
+    margin: 2%;
+  }
+}

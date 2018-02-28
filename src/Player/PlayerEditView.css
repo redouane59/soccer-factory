@@ -1,0 +1,77 @@
+.playerEditDiv{
+  margin: auto;
+  width:80%;
+  height:100%;
+  overflow: hidden;
+}
+
+.editViewRadar{
+  margin-top: 2.5%;
+}
+
+.visible{
+  width:100%;
+}
+
+.invisible{
+  width:100%;
+  visibility: hidden;
+}
+
+
+.genTable{
+  width: 100%;
+  margin-bottom: 2.5%;
+  border-style: solid;
+  border-radius: 10px;
+  padding:5px;
+  background-color : #FFFFFA;
+}
+
+.infoStarsDiv{
+  border-style: solid;
+  border-radius: 10px;
+  border-color: gray;
+  padding:5px;
+  background-color : #FFFFFA;
+}
+
+.resetButton{
+  width:100%;
+    margin: 0 auto;
+}
+.validateButton{
+  width: 70%;
+  height: 50px;
+  display:block;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+p{
+  text-align: center;
+}
+
+
+
+.nbStarsOK{
+  color: green;
+}
+
+.nbStarsHigh{
+  color: red;
+}
+
+.nbStarsLow{
+  color: orange;
+}
+
+@media only screen and (max-width:1024px) {
+  /* For mobile phones: */
+  .playerEditDiv{
+    margin: auto;
+    width:90%;
+    height:100%;
+    overflow: hidden;
+  }
+}

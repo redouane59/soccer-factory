@@ -1,0 +1,32 @@
+.criteriaFullView{
+  float:left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5%;
+}
+
+.GENline{
+  float:left;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.criterionTable{
+  width: 100%;
+  margin-bottom: 2.5%;
+  border-style: solid;
+  border-radius: 10px;
+  padding:5px;
+  background-color : #FFFFFA;
+}
+
+
+@media only screen and (max-width:1024px) {
+  /* For mobile phones: */
+  .criteriaFullView{
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}

@@ -1,0 +1,17 @@
+.summaryTable{
+  width:90%;
+  table-layout: fixed;
+  margin : 0 auto;
+  margin-bottom:10px;
+}
+
+.summaryTable tr{
+  width:100%;
+}
+
+.blueTd{
+  color: rgba(31, 119, 180, 0.9);
+}
+.redTd{
+  color: rgba(255, 127, 14, 0.9);
+}

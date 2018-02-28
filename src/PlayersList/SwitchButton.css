@@ -1,0 +1,13 @@
+.SwitchButton{
+  float:right;
+}
+
+.react-switch{
+  vertical-align: middle;
+
+}
+
+.SwitchButton span{
+  margin: 10px;
+  vertical-align: middle;
+}

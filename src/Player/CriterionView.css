@@ -1,0 +1,11 @@
+td, tr{
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.reactStars{
+  float:left;
+  padding-right:0px;
+  padding-bottom : 10px;
+}

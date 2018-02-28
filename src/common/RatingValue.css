@@ -1,0 +1,50 @@
+.ratingValue{
+  float:center;
+  color: #FFF;
+  display: inline-block;
+  line-height: 1;
+  padding: .3rem .4rem;
+  vertical-align: baseline;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.higher95{
+    background: #1c7643;
+}
+
+.higher90{
+    background: #239454;
+}
+
+.higher85{
+    background: #26a25c;
+}
+
+.higher80{
+    background: #71a23a;
+}
+
+.higher75{
+    background: #8DC153;
+}
+
+.higher70{
+    background: #F6BB43;
+}
+
+.higher65{
+    background: #E77E23;
+}
+
+.higher60{
+    background: #e50000;
+}
+
+.higher55{
+    background: #bf0000;
+}
+
+.higher50{
+    background: #980000;
+}
